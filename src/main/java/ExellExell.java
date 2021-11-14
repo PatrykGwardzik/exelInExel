@@ -9,15 +9,16 @@ import org.apache.poi.ss.usermodel.FormulaEvaluator;
 import org.apache.poi.ss.usermodel.Row;
 
 
-
 public class ExellExell {
 
         public static void main(String[] args) {
 
            HSSFWorkbook nowyArkusz = new HSSFWorkbook();
+
            nowyArkusz.getSheet("January");
             System.out.println("HI");
-           
+            System.out.println("HI");
+            System.out.println("HI");
 
 
         }
